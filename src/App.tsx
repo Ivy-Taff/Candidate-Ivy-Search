@@ -1,11 +1,11 @@
-import { Outlet } from "react-router-dom";
-import Nav from "./components/Nav";
+import { Outlet } from 'react-router-dom';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <>
       <Nav />
-      <main className="p-6">
+      <main>
         <Outlet />
       </main>
     </>
